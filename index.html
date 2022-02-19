@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container header-container">
             <a class="logo link" href=""><span class="web">Web</span><span class="studio">Studio</span></a>
             <nav>
@@ -33,10 +33,10 @@
                 </ul>
             </nav>
             <ul class="auth-nav list">
-                <li>
-                    <a class="link mail" href="mailto:info@example.com">info@example.com</a>
+                <li class="auth-item">
+                    <a class="link" href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li>
+                <li class="auth-item">
                     <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
@@ -95,23 +95,31 @@
                 <ul class="list team-container">
                     <li class="team-item">
                         <img class="team-img" src="./images/img.team1.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                        <h3 class="team-member">Игорь Демьяненко</h3>
-                        <p class="team-describe">Product Designer</p>
+                        <div class="team-text">
+                            <h3 class="team-member">Игорь Демьяненко</h3>
+                            <p class="team-describe">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="team-img" src="./images/img.team2.jpg" alt="Ольга Репина" width="270" height="260">
-                        <h3 class="team-member">Ольга Репина</h3>
-                        <p class="team-describe">Frontend Developer</p>
+                        <div class="team-text">
+                            <h3 class="team-member">Ольга Репина</h3>
+                            <p class="team-describe">Frontend Developer</p>
+                        </div>
                     </li>
-                    <li class="team-item">
+                    <li class="team-    item">
                         <img class="team-img" src="./images/img.team3.jpg" alt="Николай Тарасов" width="270" height="260">
-                        <h3 class="team-member">Николай Тарасов</h3>
-                        <p class="team-describe">Marketing</p>
+                        <div class="team-text">
+                            <h3 class="team-member">Николай Тарасов</h3>
+                            <p class="team-describe">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="team-img" src="./images/img.team4.jpg" alt="Михаил Ермаков" width="270" height="260">
-                        <h3 class="team-member">Михаил Ермаков</h3>
-                        <p class="team-describe">UI Designer</p>
+                        <div class="team-text">
+                            <h3 class="team-member">Михаил Ермаков</h3>
+                            <p class="team-describe">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -119,19 +127,21 @@
     </main>
 
     <footer class="footer">
-            <a class="logo link" href=""><span class="web">Web</span><span class="studio">Studio</span></a>
-            <address>
-                <ul class="list">
-                    <li><a class="adress link" href="https://goo.gl/maps/JE5rAZ1mxu6CQXRe6" target="_blank" rel="noopener noreferrer">г. Киев,
-                            пр-т Леси Украинки, 26</a></li>
-                    <li>
-                        <a class="link" href="mailto:info@example.com">info@example.com</a>
-                    </li>
-                    <li>
-                        <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
+        <div class="container">
+                <a class="logo link" href=""><span class="web">Web</span><span class="studio">Studio</span></a>
+                <address>
+                    <ul class="list">
+                        <li><a class="adress link" href="https://goo.gl/maps/JE5rAZ1mxu6CQXRe6" target="_blank" rel="noopener noreferrer">г. Киев,
+                                пр-т Леси Украинки, 26</a></li>
+                        <li>
+                            <a class="link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li>
+                            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
     </footer>
 
 </body>
